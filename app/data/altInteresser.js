@@ -99,7 +99,7 @@ export const altInteresser = [
     scale: "10 / 10",
     description:
       "Veldig avhengighetsskapende, liker å bygge hus med fancy mod møbler",
-    image: "/sims.png",
+    image: "/sims.jpg",
     ref: "sims",
   },
 ];
