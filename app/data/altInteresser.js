@@ -93,4 +93,13 @@ export const altInteresser = [
     image: "/boat.JPG",
     ref: "boat",
   },
+  {
+    id: 12,
+    name: "SIMS",
+    scale: "10 / 10",
+    description:
+      "Veldig avhengighetsskapende, liker å bygge hus med fancy mod møbler",
+    image: "/sims.png",
+    ref: "sims",
+  },
 ];
