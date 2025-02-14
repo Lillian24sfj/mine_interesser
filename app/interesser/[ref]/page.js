@@ -17,7 +17,6 @@ export default async function Page({ params }) {
           <p className="text-lg mb-2">
             Hvor bra: <span className="font-medium">{interesse.scale}</span>
           </p>
-          <p className="text-lg mb-4">{interesse.description}</p>
           <div className="overflow-hidden rounded-lg w-48 h-48 mx-auto">
             <Image
               alt={interesse.name}
@@ -27,6 +26,7 @@ export default async function Page({ params }) {
               className="object-cover w-full h-full"
             />
           </div>
+          <p className="text-lg mb-4">{interesse.description}</p>
         </div>
       </main>
     </>
